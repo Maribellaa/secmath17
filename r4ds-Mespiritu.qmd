@@ -1,0 +1,14 @@
+---
+title: "R for Data Sciene (2e): Activity in Sec Math 17"
+author: "Maribel Espiritu"
+format: html
+editor: visual
+---
+
+# Introduction
+
+## What Will You Learn
+
+Review the pipeline because sir will make it a part of our exam
+
+![pipeline](r4dspics/r4dspic1.png)
