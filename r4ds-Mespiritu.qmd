@@ -7,7 +7,9 @@ editor: visual
 
 # Introduction
 
-## What Will You Learn
+## What Will You Le
+
+## arn
 
 Review the pipeline because sir will make it a part of our exam
 
@@ -18,5 +20,10 @@ Review the pipeline because sir will make it a part of our exam
 To install the tidyverse package use the code:`install.package("tidyverse")`
 
 ```{r}
-#
+# loading the tidyverse
+library.packages("tidyverse")
 ```
+
+we also installed other packages by typing in the console the following code:
+
+`install.packages(c("arrow", "babynames", "curl", "duckdb", "gapminder", "ggrepel", "ggridges", "ggthemes", "hexbin", "janitor", "Lahman", "leaflet", "maps", "nycflights13", "openxlsx", "palmerpenguins", "repurrrsive", "tidymodels", "writexl"))`
