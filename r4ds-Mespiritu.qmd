@@ -16,3 +16,7 @@ Review the pipeline because sir will make it a part of our exam
 ## The Tidyverse
 
 To install the tidyverse package use the code:`install.package("tidyverse")`
+
+```{r}
+#
+```
