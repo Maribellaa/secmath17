@@ -71,3 +71,25 @@ ggplot(
   ) +
   scale_color_colorblind()
 ```
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +
+  geom_point() +
+  geom_smooth()
+
+ggplot() +
+  geom_point(
+    data = penguins,
+    mapping = aes(x = flipper_length_mm, y = body_mass_g, colour = bill_depth_mm)
+  ) +
+  geom_smooth(
+    data = penguins,
+    mapping = aes(x = flipper_length_mm, y = body_mass_g, colour = bill_depth_mm)
+  )
+```
